@@ -1,9 +1,14 @@
 body {
-
+margin: 0 auto;
 }
 
 head {
 
+}
+
+h2 {
+text-align: center;
+padding: 30px;
 }
 
 .kirbo {
@@ -13,19 +18,19 @@ margin-right: auto;
 display: block;
 }
 
-.kirby {
+h1.kirby {
 text-align: center;
 font-size: 30px;
 font-weight: bold;
-
+position: relative;
 }
 
-h1.aboutme {
-padding-left: 250px;
-postion: relative;
-padding-top: 50px;
+.aboutme {
+display: inline-block;
 }
 
-p.aboutme {
-word-break: breakword;
+.aboutme1 {
+text-align: center;
+position: relative;
+top: 40px;
 }
